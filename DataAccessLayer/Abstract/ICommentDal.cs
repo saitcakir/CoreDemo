@@ -4,12 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Xml.Serialization;
 
 namespace DataAccessLayer.Abstract
 {
-    public interface IBlogDal :IGenericDal<Blog>
+    public interface ICommentDal:IGenericDal<Comment>
     {
-  
     }
 }
