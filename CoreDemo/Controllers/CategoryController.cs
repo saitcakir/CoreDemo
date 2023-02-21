@@ -12,5 +12,6 @@ namespace CoreDemo.Controllers
             var values=cm.GetList();
             return View(values);
         }
+
     }
 }
